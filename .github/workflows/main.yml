@@ -45,8 +45,8 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-          deploy_key: ${{ secrets.TOKEN }}
-          #external_repository: dbortoluzzi/dbortoluzi.github.io
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #external_repository: dbortoluzzi/dbortoluzzi.github.io
           publish_dir: ./public
           #user_name: dbortoluzzi
           #user_email: bortoluzzi.labs@gmail.com>
