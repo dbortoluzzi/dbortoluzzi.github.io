@@ -147,7 +147,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/cv/danielebortoluzzi.pdf"
+      url: "/cv/CV_DanieleBortoluzzi.pdf"
       download: true
       newPage: false
     socialLinks:
