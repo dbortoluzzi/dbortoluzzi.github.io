@@ -269,7 +269,7 @@ params:
   # Achievements
   achievements:
     enable: true
-    title: "Publication"
+    title: "Publications"
     items:
       - title: "Architecture standardization for AI deployment on tiny microcontrollers"
         content: "Presented at the 12th IEEE International Conference on Consumer Technology, September 2022, Berlin, Germany."
