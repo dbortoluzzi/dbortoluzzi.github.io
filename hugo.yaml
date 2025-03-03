@@ -65,7 +65,7 @@ params:
   title: "Daniele Bortoluzzi"
   description: "Software Architect / R&D"
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/profile.png"
+  favicon: "/penguin.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -95,22 +95,24 @@ params:
 
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
+  # Original textLinkColor and primaryColor: "#007bff"
+  color:
   #   textColor: "#343a40"
   #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
+    textLinkColor: "#3D8D7A"
   #   backgroundColor: "#eaedf0"
   #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
+    primaryColor: "#3D8D7A"
   #   secondaryColor: "#f8f9fa"
 
-  #   darkmode:
+  # Original textLinkColor and primaryColor: "#ffffff"
+    darkmode:
   #     textColor: "#e4e6eb"
   #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
+      textLinkColor: "#3D8D7A"
   #     backgroundColor: "#18191a"
   #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
+      primaryColor: "#3D8D7A"
   #     secondaryColor: "#212529"
 
   # If you want to customize the menu, you can change it here
