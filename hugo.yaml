@@ -65,7 +65,7 @@ params:
   title: "Daniele Bortoluzzi"
   description: "Software Architect / R&D"
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/static/profile.png"
+  favicon: "/profile.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -167,7 +167,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/static/images/me.jpg"
+    image: "/images/me.jpg"
     content: |-
       I offer consultancy services by leveraging my extensive expertise, ranging from **microservices architectures** to **AI platforms**, with a focus on generative AI and computer vision applications. 
       
