@@ -253,9 +253,9 @@ params:
         school:
           name: "University of Turin"
         # date: "2013 - 2022"
-        GPA: "110/110 with honors"
+        GPA: "110/110 with honors and dignity of pubblication"
         content: |-
-          Thesis: "Architecture standardization for AI deployment on tiny microcontrollers."
+          Thesis: "Novel AI architectures for distributed IoT"
         # featuredLink:
         #   enable: true
         #   name: "My academic record"
@@ -269,7 +269,7 @@ params:
   # Achievements
   achievements:
     enable: true
-    title: "Publications"
+    title: "Publication"
     items:
       - title: "Architecture standardization for AI deployment on tiny microcontrollers"
         content: "Presented at the 12th IEEE International Conference on Consumer Technology, September 2022, Berlin, Germany."
