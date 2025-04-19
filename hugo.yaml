@@ -258,10 +258,10 @@ params:
         GPA: "110/110 with honors and dignity of pubblication"
         content: |-
           Thesis: "Novel AI architectures for distributed IoT"
-        # featuredLink:
-        #   enable: true
-        #   name: "My academic record"
-        #   url: "https://example.com"
+        featuredLink:
+          enable: true
+          name: "Code repository"
+          url: "https://github.com/dbortoluzzi/mpai-aif-v1"
       - title: "Bachelor’s Degree in Computer Science"
         school:
           name: "Ca’ Foscari University of Venice"
@@ -282,6 +282,9 @@ params:
       - title: "An Enhanced Exchange Operator for XC"
         content: "Published in Coordination Models and Languages (COORDINATION 2024), Springer, Cham."
         url: https://link.springer.com/chapter/10.1007/978-3-031-62697-5_8
+      - title: "UAS-swarm based surveillance system for UGVs safety functionality"
+        content: "Forthcoming in the proceedings of the 15th European Conference on Precision Agriculture, 2024, Barcelona (Spain)."
+        # url: https://link.springer.com/chapter/10.1007/978-3-031-62697-5_8
 
   # projects
   projects:
