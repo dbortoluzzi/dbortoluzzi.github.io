@@ -1,6 +1,7 @@
 baseURL: "https://dbortoluzzi.github.io"
 languageCode: "en-gb"
-title: "Daniele Bortoluzzi, software & IoT architect specializing in R&D, cloud, and innovative solutions."
+# Short for tab / SERP / Open Graph; longer pitch stays in hero copy below.
+title: "Daniele Bortoluzzi | Software architect, IoT & R&D"
 
 module:
   imports:
@@ -64,6 +65,9 @@ markup:
 params:
   title: "Daniele Bortoluzzi"
   description: "Software architect, IoT, R&D"
+  # Open Graph / Twitter: first image used as social preview (absolute path from site root)
+  images:
+    - /images/me.jpg
   # staticPath: ""  # The path to serve the static files from
   favicon: "/penguin.png"
 
