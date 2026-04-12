@@ -187,7 +187,6 @@ params:
         - "Microservices"
         - "Spring Framework"
         - "Quarkus"
-        - "Scala"
         - "Kubernetes"
         - "AWS"
         - "Linux"
@@ -199,8 +198,6 @@ params:
         - "Problem-solving"
         - "Mentoring"
         - "Leadership"
-        - "Innovation"
-        - "Decision-making"
         - "Communication"
 
   # Experience
