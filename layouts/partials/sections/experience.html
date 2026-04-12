@@ -1,0 +1,71 @@
+{{/* Override hugo-profile: stable tab IDs (theme used company+date strings with / , — breaking Bootstrap targets),
+     real <button> tabs for reliable clicks, company name linked only when companyUrl is set. */}}
+{{ if .Site.Params.experience.enable | default false }}
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.experience.title | default "Experience" }}</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <ul class="nav nav-pills mb-3 bg-transparent primary-font flex-wrap" id="pills-tab" role="tablist">
+                        {{ range $index, $element := .Site.Params.experience.items }}
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <button
+                                type="button"
+                                class="nav-link bg-transparent{{ if eq $index 0 }} active{{ end }}"
+                                id="exp-tab-{{ $index }}"
+                                data-bs-toggle="pill"
+                                data-bs-target="#exp-pane-{{ $index }}"
+                                role="tab"
+                                aria-controls="exp-pane-{{ $index }}"
+                                aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+                            >
+                                {{ $element.company }}
+                            </button>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
+                        {{ range $index, $element := .Site.Params.experience.items }}
+                        <div
+                            class="tab-pane fade bg-transparent{{ if eq $index 0 }} show active{{ end }}"
+                            id="exp-pane-{{ $index }}"
+                            role="tabpanel"
+                            aria-labelledby="exp-tab-{{ $index }}"
+                            tabindex="0"
+                        >
+                            <div>
+                                <span class="h4">{{ $element.job }}</span>
+                                <small> - </small>
+                                {{ with $element.companyUrl }}
+                                <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $element.company }}</a>
+                                {{ else }}
+                                <span>{{ $element.company }}</span>
+                                {{ end }}
+                                <div class="pb-1">
+                                    <small>{{ $element.date }}</small>
+                                </div>
+
+                                {{ with $element.featuredLink }}
+                                {{ if .enable | default false }}
+                                <div class="py-2 featuredLink">
+                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href="{{ .url | default "#" }}" target="_blank" rel="noopener noreferrer">
+                                        {{ .name | default "Featured Link" }}
+                                    </a>
+                                </div>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+
+                            <div class="pt-2">
+                                {{ $element.content | markdownify }}
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

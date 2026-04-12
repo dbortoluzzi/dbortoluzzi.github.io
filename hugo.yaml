@@ -1,6 +1,6 @@
 baseURL: "https://dbortoluzzi.github.io"
 languageCode: "en-gb"
-title: "Daniele Bortoluzzi, software architect specializing in R&D, IoT, and innovative solutions."
+title: "Daniele Bortoluzzi, software & IoT architect specializing in R&D, cloud, and innovative solutions."
 
 module:
   imports:
@@ -63,7 +63,7 @@ markup:
 
 params:
   title: "Daniele Bortoluzzi"
-  description: "Software Architect / R&D"
+  description: "Software architect, IoT, R&D"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/penguin.png"
 
@@ -140,8 +140,13 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Daniele Bortoluzzi."
-    subtitle: "Software Architect / R&D"
-    content: "I’m a computer scientist with 15 years of professional experience, passionate about IT and emerging technologies. I specialize in designing architectures and frameworks, with expertise in Java, Python, swarm robotics, and IoT."
+    subtitle: "Software architect, IoT, R&D"
+    content: |-
+      I’m a computer scientist with **15 years** of experience from design through production.
+
+      I focus on **Java** ecosystems and **microservices** (Spring, Quarkus), **cloud-native** backends on **AWS**, and **data / AI** delivered reliably in production—combined with **team leadership**, **turnkey delivery**, and **mentoring**.
+
+      I also **lecture** on cloud and distributed systems (containers, microservices, Spring, Docker, Kubernetes, OpenStack) and keep an **R&D** thread in **swarm intelligence**, **agent-based** coordination, and **IoT / robotics**.
     image: /images/hero.svg
     bottomImage:
       enable: false
@@ -171,27 +176,32 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I offer consultancy services by leveraging my extensive expertise, ranging from **microservices architectures** to **AI platforms**, with a focus on generative AI and computer vision applications. 
-      
-      My experience in both IT companies and academic research enables me to design practical **real-world solutions** while also creating innovative **prototypes** to drive research and development.
+      I offer consultancy across **cloud-native platforms**, **data and AI in production**, and **industrial IoT** (including Agriculture 4.0), from architecture through to rollout. I combine hands-on engineering with **team leadership**, **turnkey delivery**, and **mentoring**.
+
+      I lecture for universities and partner programmes—currently including the University of Turin’s Master’s in Cloud Computing (COREP)—and I maintain an active **R&D** thread in swarm intelligence and robotics, with rovers, drones, and embedded prototypes tied to experiments and field deployments.
     skills:
       enable: true
       title: "Here are a few technologies and skills I've been working with recently:"
       items:
         - "Java"
-        - "Teamwork"
+        - "Microservices"
+        - "Spring Framework"
+        - "Quarkus"
+        - "Scala"
+        - "Kubernetes"
+        - "AWS"
+        - "Linux"
         - "Python"
-        - "Innovation"
-        - "Spring Boot"
-        - "Mentoring"
-        - "ROS2"
-        - "Leadership"
+        - "TypeScript"
         - "C++"
+        - "ROS2"
+        - "Teamwork"
+        - "Problem-solving"
+        - "Mentoring"
+        - "Leadership"
+        - "Innovation"
+        - "Decision-making"
         - "Communication"
-        - "Angular"
-        - "Problem-solving"     
-        - "Nvidia Deepstream"   
-        - "Advisory"
 
   # Experience
   experience:
@@ -200,50 +210,71 @@ params:
     items:
       - job: "Freelance IT Consultant"
         company: "Self-employed"
+        companyUrl: "https://www.linkedin.com/in/daniele-bortoluzzi-7a704363/"
         date: "Mar 2025 - Present"
         content: |-
-          Working as a freelance consultant in **robotics, swarm intelligence, and agent-based AI**. <br> Key activities include:
-          - Providing consultancy on the design of AI and non-AI platforms
-          - Building frameworks for distributed intelligence in IoT and robotics.
-          - Designing and developing applications and architectures for drone swarms.
-          
-          Tech: Python, ROS2, Gazebo, Agentic AI frameworks, Aggregate Programming, Java
+          Freelance consultant across **cloud-native** delivery, **software architecture**, **agent-based AI**, **IoT**, **robotics**, and **swarm intelligence** (heterogeneous fleets, drones, field systems).
+
+          I lead and mentor teams from design through **turnkey rollout**: **data** and **AI** pipelines, **industrial** solutions, and **Agriculture 4.0** use cases.
+          - **Microservice** architectures (independent services with **Quarkus**), **React** front ends consuming those APIs, and integration across distributed components.
+          - Consultancy on **agent-based** and conventional AI platforms; **frameworks for distributed intelligence** in IoT and robotics; **architectures for drone swarms** and heterogeneous fleets.
+          - **Data ingestion** pipelines and dashboards for monitoring, exploration, and operational use of large datasets.
+          - Deployment on **AWS** and **infrastructure-as-code**: provisioning environments with **Terraform**.
+          - **AI** projects for data analysis, **computer vision**, and models **deployed on embedded devices**, including Agriculture 4.0 use cases.
+
+          Tech: Java, Python; Quarkus, React (TypeScript), microservices, Redis, AWS, Terraform; agentic AI frameworks; ROS2, Gazebo, aggregate programming
+      - job: "Contract Lecturer"
+        company: "COREP · University of Turin"
+        companyUrl: "https://www.unito.it/"
+        date: "Nov 2025 - Apr 2026"
+        content: |-
+          Teaching on site for the **Master’s in Cloud Computing for AI and IoT** (first-level university master’s, University of Turin, organized with COREP).
+          - Led the course **“Containerization and Virtualization Platforms”** (Spring Boot, microservices, Docker, Kubernetes, OpenStack).
+
+          Tech: Spring Boot, microservices, Docker, Kubernetes, OpenStack, Java
       - job: "Research Fellow"
-        company: "Turin University"
-        companyUrl: "https://unito.com"
+        company: "University of Turin · Computer Science"
+        companyUrl: "https://www.di.unito.it/"
         date: "Mar 2023 - Feb 2025"
         content: |-
-          Research in Aggregate Programming, focusing on **coordination** among heterogeneous entities. <br> Key activities include:
-          - Participation in the PRIN 2020 COMMON-WEARS project.
-          - Development of IoT and robotics platforms using Aggregate Programming and ROS2.
-          - Teaching support for “Web Technologies” and “Programming for Mobile Devices.
+          Within the **MoVeRe** research group: research on **Aggregate Programming** for coordination among heterogeneous entities.
+          - Participation in the **PRIN 2020 COMMON-WEARS** project.
+          - Verticalizations and PoC in **robotics** (drones and ground robots/rovers) and **Industry 4.0**.
+          - Teaching support for **“Web Technologies”** and **“Programming for Mobile Devices”**, including **A.Y. 2025–2026**.
 
-          Tech: ROS2, Gazebo, Spring Boot, Angular, Clearpath Jackal, iRobot Create3
+          Tech: ROS2 (Python, C++), Gazebo (Python), Zephyr (C, C++), Arduino (C), Spring Boot (Java), Angular (TypeScript)
 
       - job: "Solution Architect"
         company: "GFT Italia"
         companyUrl: "https://www.gft.com/"
         date: "Oct 2021 - Mar 2023"
         content: |-
-          Designed software architectures for **microservices** in the insurance sector. <br> Key achievements:
-          - Led a team of 20+ members across multiple roles.
-          - Coordinated the design of an IT solution for a major insurance group.
+          Consulting on **software architecture** and **microservice-based** solutions for insurance clients.
+          - Technical reference and coordination of development teams; training and coaching.
+          - Design and coordination of the IT solution for a new **core customer registry** for a lead insurance group.
 
-          Tech: Java, Spring Boot, Apache Kafka, Redis
+          Tech: Java 11+, Spring Boot, Oracle, Spring Cloud, Redis, DB2, MyBatis, Tomcat, IBM WebSphere, SQL, GitLab, Maven, REST, IBM MQ, Apache Kafka
 
       - job: "Senior Software Developer / Technical Leader"
         company: "Xeffe Srl"
         date: "Jan 2017 - Oct 2021"
         content: |-
-          Developed and maintained **enterprise solutions for the finance market** using Domain-Driven Design. <br> Key projects involved:
-          - Building proprietary frameworks based on Apache Camel and Play Framework.
-          - Ensuring high customer satisfaction through tailored solutions.
+          Analysis, coordination, and development of **enterprise solutions** for the finance market (**DDD**, enterprise integration patterns).
+          - Development and maintenance of proprietary frameworks based on **Apache Camel** and **Play Framework**.
 
-      # - job: "Software Architect / Full Stack Developer"
-      #   company: "Creatiweb Srl"
-      #   date: "Nov 2014 - Jun 2015"
-      #   content: |-
-      #     Designed and developed a **booking engine** for campsites and villages. Served as the IT manager for the server farm and oversaw WebService integrations for accounting systems.
+          Tech: Java 8+, Scala, JavaScript, Spring, SQL, Apache Camel, Play Framework, Oracle, H2, MyBatis, GitHub, Ansible, Maven, nginx, SOAP, REST, jQuery, BeanIO, Quartz
+
+      - job: "Software engineer — earlier roles"
+        company: "Various employers · Italy"
+        date: "Jun 2011 - Jan 2017"
+        content: |-
+          Earlier career in **Java** development, integrations, and **full-stack** delivery—**finance** and **travel / booking** domains—progressing from analyst/developer to technical lead responsibilities.
+          - **Prosa** — EmotiVending / VeBox (Java, C++, Ruby).
+          - **NaturalBooking** — back end of **Hospes** booking engine; SOAP integrations; server ops.
+          - **Creatiweb** — proprietary booking engine, WebServices, **IT manager** for server farm.
+          - **Audacia** — intelligent **big data** analysis platform; Java and Node.js stack.
+
+          Tech: Java, SOAP/REST, SQL, JavaScript/AngularJS, Tomcat, Firebird/Oracle, Node.js (Audacia), integrations and ops.
 
   # Education
   education:
@@ -255,7 +286,7 @@ params:
         school:
           name: "University of Turin"
         # date: "2013 - 2022"
-        GPA: "110/110 with honors and dignity of pubblication"
+        GPA: "110/110 with honors and dignity of publication"
         content: |-
           Thesis: "Novel AI architectures for distributed IoT"
         featuredLink:
@@ -273,18 +304,24 @@ params:
     enable: true
     title: "Publications"
     items:
+      - title: "Exploiting Aggregate Programming in a Multi-Robot Service Prototype"
+        content: "In: Proc. 17th Workshop on PLACES 2026 (satellite of ETAPS 2026), Turin, Italy. EPTCS vol. 444, 2026, pp. 45–57."
+        url: https://arxiv.org/abs/2604.06876
+      - title: "Lambdas at the Far Edge: a Tale of Flying Lambdas and Lambdas on Wheels"
+        content: "In: Logics and Type Theory (LTT 2026), Turin, Italy. EPTCS vol. 441, 2026, pp. 19–45."
+        url: https://arxiv.org/abs/2603.04008
       - title: "Architecture standardization for AI deployment on tiny microcontrollers"
-        content: "Presented at the 12th IEEE International Conference on Consumer Technology, September 2022, Berlin, Germany."
+        content: "Presented at the 12th IEEE International Conference on Consumer Technology (ICCE-Berlin), 2–6 September 2022, Berlin, Germany."
         url: https://ieeexplore.ieee.org/xpl/conhome/9937084/proceeding
       - title: "Implementation of an IoT Wearable Prototype on a Standard AI Architecture"
-        content: "Published at the IEEE International Conference on Dependable, Autonomic and Secure Computing, 2022, Falerna, Italy."
+        content: "Published at the IEEE DASC / PiCom / CBDCom / CyberSciTech congress, 12–15 July 2022, Falerna, Italy."
         url: https://ieeexplore.ieee.org/abstract/document/9927767
       - title: "An Enhanced Exchange Operator for XC"
-        content: "Published in Coordination Models and Languages (COORDINATION 2024), Springer, Cham."
+        content: "In: Coordination Models and Languages (COORDINATION 2024), DisCoTec 2024, Groningen, The Netherlands. LNCS vol. 14676, Springer, Cham."
         url: https://link.springer.com/chapter/10.1007/978-3-031-62697-5_8
       - title: "UAS-swarm based surveillance system for UGVs safety functionality"
-        content: "Forthcoming in the proceedings of the 15th European Conference on Precision Agriculture, 2024, Barcelona (Spain)."
-        # url: https://link.springer.com/chapter/10.1007/978-3-031-62697-5_8
+        content: "In: Proc. 15th European Conference on Precision Agriculture (ECPA 2024), 30 June – 3 July 2024, Barcelona, Spain."
+        url: https://www.researchgate.net/publication/394562712_Drone-swarm_based_surveillance_system_for_autonomous_machine_safety_functionality
 
   # projects
   projects:
@@ -340,7 +377,10 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: |-
+      My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+
+      Freelance (Italy): P.IVA 13237150019 · PEC [daniele.bortoluzzi@arubapec.it](mailto:daniele.bortoluzzi@arubapec.it)
     # btnName: Mail me
     # btnLink: mailto:bortoluzzi.labs@gmail.com
     # formspree:
